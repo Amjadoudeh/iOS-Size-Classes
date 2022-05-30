@@ -50,14 +50,14 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="L08-8y-nLM">
                                 <rect key="frame" x="20" y="630" width="350" height="160"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Data Image" translatesAutoresizingMaskIntoConstraints="NO" id="Y4A-Ne-yOJ">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Videos Image" translatesAutoresizingMaskIntoConstraints="NO" id="Y4A-Ne-yOJ">
                                         <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="160" id="big-KC-u0P"/>
                                             <constraint firstAttribute="width" secondItem="Y4A-Ne-yOJ" secondAttribute="height" multiplier="1:1" id="cw4-Vp-3vk"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Images Image" translatesAutoresizingMaskIntoConstraints="NO" id="2wt-Nn-ykM">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Code" translatesAutoresizingMaskIntoConstraints="NO" id="2wt-Nn-ykM">
                                         <rect key="frame" x="190" y="0.0" width="160" height="160"/>
                                     </imageView>
                                 </subviews>
@@ -127,9 +127,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Code" width="500" height="250"/>
         <image name="Data Image" width="500" height="250"/>
         <image name="Devslopes BG - June 2017-1920x1080" width="1920" height="1080"/>
         <image name="Images Image" width="500" height="250"/>
+        <image name="Videos Image" width="500" height="250"/>
         <image name="cameraButton" width="57" height="57"/>
         <image name="devslopesProfileLogo" width="191" height="191"/>
         <image name="favoriteButton" width="58" height="57"/>
